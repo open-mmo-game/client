@@ -1,0 +1,24 @@
+.bar {
+  align-self: stretch;
+  padding: 4px;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contents {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
